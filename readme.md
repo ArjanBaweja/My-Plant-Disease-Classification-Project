@@ -1,6 +1,9 @@
-# Project Name
+# Plant Disease Classification Project
 
- Add short description of project here > 
+This project uses the Plant village detaset and the nvidia jetson nano to run a img classification program that classifys photos of 38 classes of plants gives a output with the class name (the disease the plant or if its healthy) and provides a wiki link you can use to learn more and help your plant.
+Input img:
+Output:
+![Uploading WhatsApp Image 2024-08-03 at 00.20.20_257ecb6a.jpg…]()
 
 ![add image descrition here](direct image link here)
 
