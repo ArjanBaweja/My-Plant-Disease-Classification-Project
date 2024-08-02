@@ -5,6 +5,7 @@ This project uses the Plant village detaset and the nvidia jetson nano to run a 
 Input img:
 ![0c620ec5-11cf-4120-94ab-1311e99df147___FREC_Scab 3131](https://github.com/user-attachments/assets/2546e04e-9033-4075-9ba5-be72e0d5d71d)
 (Apple Leaf with Scab Diease)
+
 Output:
 ![WhatsApp Image 2024-08-03 at 00 20 20_257ecb6a](https://github.com/user-attachments/assets/b83220a7-6c2b-4875-83ed-7a468df7eaa7)
 
