@@ -35,11 +35,14 @@ Lastly, you can run the algorithm with any photo of your choice. The algorithm w
 5. Go into the directory jetson-inference/python/training/classification.
 6. Open the split_dataset.py file.
 7. Go to the bottom of the file and replace the "a" in folder = "a" to the path of your downloaded data (you can get the path by right-clicking and clicking "Copy Path").
+
 ![image](https://github.com/user-attachments/assets/8bb2d0e9-0981-4840-b8b6-1b0130d122cd)
-8. Navigate back to jetson-inference/python/training/classification/data, but this time cd into the name of your data folder (e.g., cd 'data').
-9. Make a txt file in your data folder called labels.txt using the command 'mkdir labels.txt'.
-10. Inside labels.txt, write the name of all the classes in the dataset or copy from: https://docs.google.com/document/d/e/2PACX-1vTQuOZXt6tJXMF1dMuq9tM68L1oTgFXbnBwqUUkldLkf92TljIUzM5cyIj_W_aaXTKvOyLmIw7kGrV1/pub
-11. Make sure you have three folders in your data folder named train, test, val, and the labels.txt file.
+
+9. Navigate back to jetson-inference/python/training/classification/data, but this time cd into the name of your data folder (e.g., cd 'data').
+10. Make a txt file in your data folder called labels.txt using the command 'mkdir labels.txt'.
+11. Inside labels.txt, write the name of all the classes in the dataset or copy from: https://docs.google.com/document/d/e/2PACX-1vTQuOZXt6tJXMF1dMuq9tM68L1oTgFXbnBwqUUkldLkf92TljIUzM5cyIj_W_aaXTKvOyLmIw7kGrV1/pub
+12. Make sure you have three folders in your data folder named train, test, val, and the labels.txt file.
+
 ![image](https://github.com/user-attachments/assets/f89ab593-2da5-4f2f-a8c8-f96bf641bb0a)
 # 2. Training the model
 1. Navigate back into jetson-inference.
@@ -54,7 +57,9 @@ Lastly, you can run the algorithm with any photo of your choice. The algorithm w
    8a. In case you have named your model something other than "color", replace "color" in that command with the name of the model folder.
 8.  Look in jetson-inference/python/training/classification/models/color to make sure you have a file called resnet18.onnx.
    8a. In case you have named your model something other than "color", replace "color" in that command with the name of the model folder.
+    
 ![image](https://github.com/user-attachments/assets/b71684d7-029e-4499-ba07-e6f2a9a62a42)
+
 9 Exit Docker by pressing Ctrl+D.
 # 3. Running the algorithm
 1. Navigate from your Nano to jetson-inference/python/training/classification.
